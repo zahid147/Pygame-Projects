@@ -21,6 +21,7 @@ screen = pygame.display.set_mode((900, 600))
 background = pygame.image.load(resource_path('images/bg-space.jpg'))
 background = pygame.transform.scale(background, (900, 600))
 pygame.mixer.music.load(resource_path('sounds/bg-music.mp3'))
+pygame.mixer.music.set_volume(0.5)
 pygame.mixer.music.play(-1)
 
 # Caption and Icon
